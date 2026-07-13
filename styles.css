@@ -25,6 +25,7 @@
   --gold:     #D9B776;
   --muted:    #C9B6AE;
   --header-bg: rgba(23,16,15,0.86);
+  --rose:     #b05b49
 }
 
 *{ box-sizing: border-box; margin:0; padding:0; }
