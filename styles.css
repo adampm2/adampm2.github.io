@@ -349,6 +349,7 @@ section{ padding: 96px 0; }
   background: var(--cream);
   cursor: pointer;
   transition: border-color 0.2s ease, background 0.2s ease;
+  color: var(--ink);
 }
 .filter-chip .swatch{ width:14px; height:14px; }
 .filter-chip:hover, .filter-chip.active{ border-color: var(--wine); background: var(--cream-2); }
