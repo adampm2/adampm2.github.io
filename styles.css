@@ -56,7 +56,7 @@ h1,h2,h3{
   text-transform: uppercase;
   color: var(--wine);
 }
-.eyebrow.on-dark{ color: var(--rose); }
+.eyebrow.on-dark{ color: var(--cream); }
 
 .wrap{ max-width: var(--max); margin: 0 auto; padding: 0 28px; }
 
