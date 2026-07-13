@@ -138,8 +138,8 @@ nav.wrap{
 }
 .btn-primary{ background: var(--wine); color: var(--cream); }
 .btn-primary:hover{ background: var(--wine-deep); transform: translateY(-1px); }
-.btn-ghost{ border-color: var(--ink); color: var(--ink); }
-.btn-ghost:hover{ background: var(--ink); color: var(--cream); }
+.btn-ghost{ border-color: var(--wine); color: var(--cream); }
+.btn-ghost:hover{ background: var(--wine-deep); color: var(--cream); }
 .btn-ghost.on-dark{ background: var(--wine); color: var(--cream); }
 .btn-ghost.on-dark:hover{ background: var(--wine-deep); transform: translateY(-1px); }
 .menu-toggle{ display:none; background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--ink); }
