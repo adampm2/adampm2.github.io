@@ -526,6 +526,26 @@ footer{ padding: 56px 0 36px; border-top: 1px solid var(--line); }
   .info-strip .wrap{ grid-template-columns: 1fr; }
 }
 @media (max-width: 640px){
+  nav.wrap{
+    height: auto;
+    min-height: 76px;
+    gap: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .logo{
+    font-size: clamp(2.00rem, 4.2vw, 1.8rem);
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .nav-right{
+    gap: 10px;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
   .nav-links{
     position:absolute; top:76px; left:0; right:0;
     background: var(--cream); border-bottom:1px solid var(--line);
