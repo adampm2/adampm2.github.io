@@ -105,6 +105,11 @@ nav.wrap{
 }
 .logo{
   font-family: 'Pacifico', cursive;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  flex: 1 1 0;
+  min-width: 0;
   font-size: 2.5rem;
   font-weight: 400px;
   letter-spacing: 0.04em;
@@ -114,7 +119,7 @@ nav.wrap{
 }
 .logo .swatch{ width:14px; height:14px; }
 .nav-links{ display:flex; gap: 48px; align-items:center; }
-.nav-right{ display:flex; align-items:center; gap: 24px; }
+.nav-right{ display:flex; align-items:center; gap: 24px; min-width: 0; }
 .nav-links a{
   font-size: 1.3rem;
   position:relative;
@@ -191,7 +196,7 @@ nav.wrap{
   font-size: clamp(2.6rem, 5vw, 4.2rem);
   margin: 18px 0 22px;
 }
-.hero h1 em{ font-style: italic; color: var(--your); }
+.hero h1 em{ font-style: italic ; color: var(--your); }
 .hero p.lede{
   font-size: 1.08rem;
   max-width: 46ch;
@@ -528,7 +533,7 @@ footer{ padding: 56px 0 36px; border-top: 1px solid var(--line); }
   .tech-card{ width: 100%; max-width: 100%; padding: 28px 24px; }
   .info-strip .wrap{ grid-template-columns: 1fr; }
 }
-@media (max-width: 640px){
+@media (max-width: 900px){
   nav.wrap{
     height: auto;
     min-height: 76px;
@@ -537,12 +542,8 @@ footer{ padding: 56px 0 36px; border-top: 1px solid var(--line); }
     padding-bottom: 12px;
   }
   .logo{
-    font-size: clamp(2.00rem, 4.2vw, 1.8rem);
-    line-height: 1.05;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
-    flex: 1 1 auto;
-    min-width: 0;
+    font-size: clamp(1.9rem, 3.5vw, 2.2rem);
+    max-width: min(60vw, 240px);
   }
   .nav-right{
     gap: 10px;
